@@ -1,13 +1,14 @@
-import Image from "next/image";
-import { Calendar } from "@/components/ui/calendar"
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-
+/*import Image from "next/image";
+import { Calendar } from "@/components/ui/calendar";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Terminal } from 'react-icons/fa'; 
 
 export default function Home() {
   return (
-    <main style={{backgroundColor: 'black'}} className="flex min-h-screen flex-col items-center justify-between p-24 ">
-      <div style={{color:'white',
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div style={{
         width: '100%', height: '100%', 
+        background:'',
         border: '5px solid orange',
         borderRadius:'20px'
       }}>
@@ -31,7 +32,7 @@ export default function Home() {
           
       </div>
         
-        <div style={{display: 'flex',
+      <div style={{display: 'flex',
           textAlign: 'left', 
           fontSize: '150%'
         }}>
@@ -42,7 +43,7 @@ export default function Home() {
                 <link rel="page.tsx" href="page.tsx" />Home
               </button> <br />
               <button style={{border:'2px solid orange', borderRadius:'5px', margin: '20px'}}>
-                <link rel="calendar.tsx" href="page2.tsx" />Contact
+                <link rel="page2.tsx" href="page2.tsx" />Contact
               </button> <br />
               <button style={{border:'2px solid orange', borderRadius:'5px', margin: '20px'}}>
                 <link rel="page3.tsx" href="page3.tsx" />404
@@ -53,16 +54,20 @@ export default function Home() {
           marginLeft: '26%',
           textAlign:'center',
           borderRadius:'20px'}}>
-          
-            Marcin Włodarczyk <br />
-            Numer Indeksu: 121660 <br />
-            Grupa 6
           </section>
           </div>
 
+            <Alert>
+                <Terminal className="h-4 w-4" />
+                <AlertTitle>Heads up!</AlertTitle>
+                <AlertDescription>
+                You can add components and dependencies to your app using the cli.
+                </AlertDescription>
+            </Alert>
 
       </div>
 
     </main>
   );
 }
+*/
